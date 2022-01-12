@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>코로나 19</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>코로나 19</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      a {
+        color:skyblue;
+        text-decoration: none;
+      }
+      .nonactive {
+        color: gray;
+        font-size: 15px;
+      }
+      .active {
+        color: blue;
+        font-size: 20px;
+      }
+      h1 {
+        font-size:45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+       margin:0;
+       padding:20px;
+     }
+     li {
+        font-size: 17px;
+      }
+      .나무위키 {
+        font-size: 25px;
+        color: black;
+      }
+      ol {
+        border-right: 1px solid gray;
+        border-left: 15px solid white;
+        width: 130px;
+        margin: 0px;
+        padding: 20px;
+      }
+    </style>
+  </head>
 <body>
-  <h1>코로나 19 (covid 19)</h1>
-  <ol>
-    <li><a href="covid19_inf.html">"코로나 19" 란</a></li>
-    <li><a href="covid19_vac.html">백신, 백신 부작용</a></li>
-    <li><a href="covid19_pass.html">방역 패스</a></li>
-  </ol>
-</body>
+  <h1>코로나19 (covid19)<br><a class="나무위키">Feat. 나무위키</a></h1>
+    <ol>
+      <li><a href="index.html" class="active">홈</a></li>
+      <li><a href="covid19_inf.html" class="nonactive">코로나 19</a></li>
+      <li><a href="covid19_vac.html" class="nonactive">백신, 백신 부작용</a></li>
+      <li><a href="covid19_pass.html" class="nonactive">방역 패스</a></li>
+    </ol>
+  </body>
 </html>

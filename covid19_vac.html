@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>백신, 백신 부작용</title>
+  <head>
+    <meta charset="utf-8">
+    <title>백신, 백신 부작용</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      a {
+        color:skyblue;
+        text-decoration: none;
+      }
+      .nonactive {
+        color: gray;
+        font-size: 15px;
+      }
+      .active {
+        color: blue;
+        font-size: 20px;
+      }
+      h1 {
+       font-size:45px;
+       text-align: center;
+       border-bottom:1px solid gray;
+       margin:0;
+       padding:20px;
+      }
+      #grid {
+        display:grid;
+        grid-template-columns: 198px 1fr;
+      }
+      #grid ol {
+        padding-left:33px;
+      }
+      #grid #article {
+        padding-left:59px;
+      }
+      li {
+        font-size: 17px;
+      }
+      ol {
+        border-right: 1px solid gray;
+        border-left: 15px solid white;
+        width: 160px;
+        margin: 0px;
+        padding: 20px;
+      }
+  </style>
 </head>
-<body>
-  <h1>백신, 백신 부작용</h1>
-  <ol>
-    <li><a href="index.html">코로나 19</a></li>
-    <li><a href="covid19_inf.html">"코로나 19" 란</a></li>
-    <li><a href="covid19_pass.html">방역 패스</a></li>
-  </ol>
-  <br>2020년 12월 8일 영국에서 세계 최초로 접종이 시작되었다.
-<br><br><br><br><br><br>참조 : <a href="https://namu.wiki/w/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19/%EB%B0%B1%EC%8B%A0#s-7" target="_blank">나무위키</a>
-</body>
+  <body>
+    <h1>백신</h1>
+  <div id= "grid">
+    <ol>
+      <li><a href="index.html" class="nonactive">홈</a></li>
+      <li><a href="covid19_inf.html" class="nonactive">코로나 19</a></li>
+      <li><a href="covid19_vac.html" class="active">백신, 백신 부작용</a></li>
+      <li><a href="covid19_pass.html" class="nonactive">방역 패스</a></li>
+    </ol>
+  <div id="article">
+    <br>2020년 12월 8일 영국에서 세계 최초로 접종이 시작되었다.
+          <br><br><br><br><br><br>참조 : <a href="https://namu.wiki/w/%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%EA%B0%90%EC%97%BC%EC%A6%9D-19/%EB%B0%B1%EC%8B%A0#s-7" target="_blank">나무위키(링크)</a> - 코로나바이러스감염증-19/백신
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
